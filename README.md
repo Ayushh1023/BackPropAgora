@@ -25,7 +25,7 @@ This notebook discusses the basic mathematical approach of finding `gradients` o
     plt.plot(x,y)
     plt.grid()
     ```
-![Plot](Images/quad.png)
+    ![Plot](Images/quad.png)
 </br>
 
 - Computed the `derivative` a.k.a `gradient` : `dy/dx` using the below expression
