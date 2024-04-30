@@ -63,7 +63,6 @@ print('d(d1)/d(c)', (d2-d1)/h)  # d(d1)/d(c) 0.9999999999976694
 
 This notebook serves the following purposes:<br>
 - implements a `Value` data structure for storing the info about each `feature/variable`:
-<br> 
 
     ```python
     class Value:
