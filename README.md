@@ -12,49 +12,53 @@
 This notebook discusses the basic mathematical approach of finding `gradients` of any feature variable w.r.t the output function
 
 - Took a simple quadratic function
-```python
-def f(x):
-    return 4*x**2 - 2*x + 5
-```
+    ```python
+    def f(x):
+        return 4*x**2 - 2*x + 5
+    ```
 <br>
 
 - Plotted with `matplotlib.pyplot`
-```python
-x = np.arange(-10, 10, 0.25)
-y = f(x)
-plt.plot(x,y)
-plt.grid()
-```
+    ```python
+    x = np.arange(-10, 10, 0.25)
+    y = f(x)
+    plt.plot(x,y)
+    plt.grid()
+    ```
 ![Plot](Images/quad.png)
-<br>
+</br>
 
 - Computed the `derivative` a.k.a `gradient` : `dy/dx` using the below expression
 
 $$L = \lim_{h\to 0} \frac{f(a + h) - f(a)}{h}$$
 
 
-```python
-h = 0.001
-x = 3.0
+- For Example 
+    ```python
+        h = 0.001
+        x = 3.0
 
-print((f(x+h)-f(x))/h) # 22.00399999999547
-```
+        print((f(x+h)-f(x))/h) # 22.00399999999547
+    ```
+
+    
 
 - Another Example
-```python
-h = 0.0001
 
-a = 2.0
-b = -3.0
-c = 10.0
-d1 = a*b + c
-c+=h
-d2 = a*b + c
+    ```python
+    h = 0.0001
 
-print('d1', d1)                 # 4.0
-print('d2', d2)                 # 4.0001
-print('d(d1)/d(c)', (d2-d1)/h)  # d(d1)/d(c) 0.9999999999976694
-```
+    a = 2.0
+    b = -3.0
+    c = 10.0
+    d1 = a*b + c
+    c+=h
+    d2 = a*b + c
+
+    print('d1', d1)                 # 4.0
+    print('d2', d2)                 # 4.0001
+    print('d(d1)/d(c)', (d2-d1)/h)  # d(d1)/d(c) 0.9999999999976694
+    ```
 <br>
 <br>
 
@@ -150,7 +154,12 @@ This notebook serves the following purposes:<br>
 <br>
 
 # Examples
-- A simple expression initialization using `Value` data structure
+- Let's take the below expressions in consideration
+$$n = w_1x_1 + w_2x_2 + b$$
+$$o = \tanh(n)$$
+
+- This simple expression can be initialized using the `Value` data structure
+
 
 
     ```python
