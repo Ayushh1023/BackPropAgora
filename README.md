@@ -158,7 +158,7 @@ This notebook serves the following purposes:<br>
 $$n = w_1x_1 + w_2x_2 + b$$
 $$o = \tanh(n)$$
 
-- This simple expression can be initialized using the `Value` data structure
+- These simple expressions can be initialized using the `Value` data structure
 
 
 
@@ -190,6 +190,7 @@ $$o = \tanh(n)$$
     ```
 
     ![Initial_img](Images/init_expr.svg)
+    
 
 - Calculating the gradients _manually_ & _mathematically_
 
