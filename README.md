@@ -2,9 +2,9 @@
  Understanding and Implementing Backprop Algorithm from scratch
 
 ### The repository contains the following files (as of now):-<br>
-- [gradients.ipynb](gradients.ipynb)
-- [manual_Approach.ipynb](manual_Approach.ipynb)
-- [functional_Approach.ipynb](functional_Approach.ipynb)
+- [gradients.ipynb](/gradients.ipynb)
+- [manual_Approach.ipynb](/manual_Approach.ipynb)
+- [functional_Approach.ipynb](/functional_Approach.ipynb)
 
 
 ## `gradients.ipynb`
