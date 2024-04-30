@@ -184,7 +184,7 @@ $$o = \tanh(n)$$
 
 - Visualizing the expression
     ```python
-    ## visualizing using the draw function created above using graphviz library
+    # visualizing using the draw function created above using graphviz library
 
     draw(o)
     ```
@@ -221,16 +221,7 @@ $$o = \tanh(n)$$
 
     ![updated_graph](Images/updated_expr.svg)
 
-
-
-
-
-
-
-
-<br>
-<br>
-
+<br/>
 
 
 ## `functional_Approach.ipynb`
