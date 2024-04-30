@@ -188,10 +188,10 @@ $$o = \tanh(n)$$
 
     draw(o)
     ```
-
-    ![Initial_img](Images/init_expr.svg)
     
-
+![Initial_img](Images/init_expr.svg)
+    
+    
 - Calculating the gradients _manually_ & _mathematically_
 
     ```python
@@ -220,13 +220,12 @@ $$o = \tanh(n)$$
 
 - Updated Graph
 
-    ![updated_graph](Images/updated_expr.svg)
+![updated_graph](Images/updated_expr.svg)
 
-<br/>
 
 
 ## `functional_Approach.ipynb`
 
-will write about this notebook afterwards..feeling sleepy rightnow...gotta sleep now 💤
+will write about this notebook afterward..feeling sleepy rightnow...gotta sleep now 💤
 
 
