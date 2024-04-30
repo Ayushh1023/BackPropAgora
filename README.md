@@ -25,7 +25,7 @@ y = f(x)
 plt.plot(x,y)
 plt.grid()
 ```
-![Plot](Images\quad.png)
+![Plot](Images/quad.png)
 <br>
 
 - Computed the `derivative` a.k.a `gradient` : `dy/dx` using the below expression
@@ -181,7 +181,7 @@ This notebook serves the following purposes:<br>
     draw(o)
     ```
 
-    ![Initial_img](Images\init_expr.svg)
+    ![Initial_img](Images/init_expr.svg)
 
 - Calculating the gradients _manually_ & _mathematically_
 
@@ -211,7 +211,7 @@ This notebook serves the following purposes:<br>
 
 - Updated Graph
 
-    ![updated_graph](Images\updated_expr.svg)
+    ![updated_graph](Images/updated_expr.svg)
 
 
 
